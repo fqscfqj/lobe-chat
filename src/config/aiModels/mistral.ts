@@ -23,7 +23,8 @@ const mistralChatModels: AIChatModelCard[] = [
   },
   {
     abilities: {
-      functionCall: true,
+      functionCall: true
+      vision: true,
     },
     contextWindowTokens: 128_000,
     description:
@@ -57,7 +58,8 @@ const mistralChatModels: AIChatModelCard[] = [
   },
   {
     abilities: {
-      functionCall: true,
+      functionCall: true
+      vision: true,
     },
     contextWindowTokens: 131_072,
     description:
